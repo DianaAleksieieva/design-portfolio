@@ -1,0 +1,92 @@
+.Header-section {
+  min-height: 80px;
+  background-color: transparent;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.Header-navigation {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header-navigation-right {
+  display: flex;
+  color: #3C3C3C;
+  text-decoration: none; 
+}
+
+.Header-navigation-link {
+  font-size: 18px;
+  margin-right: 45px;
+  padding: 5px;
+  cursor: pointer;
+  color: #3C3C3C;
+  text-decoration: none; 
+}
+
+.Portfolio {
+  font-size: 18px;
+  margin-right: 45px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #3c3c3c;
+}
+
+.Portfolio:hover {
+  color: inherit;
+  background-color: #ffe393;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.Header-navigation-link:last-child {
+  margin-right: 0px;
+}
+
+.Header-navigation-link:hover {
+  background-color: #ffe393;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.Header-navigation-link-active {
+  font-size: 18px;
+  margin-right: 45px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #ffe393;
+  font-weight: 400;
+}
+
+@media (max-width: 420px) {
+
+  .Header-section {
+    min-height: 50px;
+  }
+  .Portfolio {
+    display: none;
+  }
+  .Header-navigation {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .Header-navigation-right {
+    font-size: 16px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .Header-navigation-link {
+    margin-right: 0px;
+  }
+  
+  .Header-navigation-link-active {
+    font-size: 16px;
+    margin-right: 0px;
+  }
+}

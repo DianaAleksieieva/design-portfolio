@@ -1,0 +1,48 @@
+.Project-header {
+    margin-top: 50px;
+}
+
+.Project-description {
+    line-height: 160%;
+}
+.Img-gallery
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    overflow: auto;
+}
+.Project-img {
+    margin-right: 25px;
+    max-width: 340px;
+}
+
+.Project-img:last-child {
+    margin-right: 0px;
+}
+
+@media (max-width: 420px) {
+    .Project-header {
+        margin-top: 20px;
+    }
+    
+    .Project-description {
+        line-height: 140%;
+    }
+    .Img-gallery
+    {
+        margin-top: 25px;
+        margin-bottom: 40px;
+        overflow: auto;
+    }
+    .Project-img {
+        margin-right: 25px;
+        max-width: 200px;
+        margin-right: 7px;
+    }
+    
+    .Project-img:last-child {
+        margin-right: 0px;
+    }
+}    
