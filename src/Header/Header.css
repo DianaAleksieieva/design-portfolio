@@ -62,7 +62,7 @@
   font-weight: 400;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
 
   .Header-section {
     min-height: 50px;
