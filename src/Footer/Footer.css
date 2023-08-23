@@ -36,7 +36,7 @@
     font-weight: 600;
 }
 
-@media (max-width: 420px) {
+@media only screen and (max-width: 420px) {
     
     .contact-info {
         flex-direction: column;
