@@ -3,6 +3,7 @@ import '../App.css';
 import Header from '../Header/Header.jsx';
 import aleksaLOGO from '../img/Aleksa-Diana.svg';
 import { HashLink } from 'react-router-hash-link';
+import myCV from '.././img/CV-Diana-Aleksieieva.pdf'
 
 function Hero() {
   return (
@@ -26,7 +27,7 @@ function Hero() {
         <div className="Hero-buttons">
           <div className='Hero-buttons-left'>
           <HashLink className='Hero-first-button' smooth to="../App.js#Shopify">Projects</HashLink>
-            <a href="../img/CV-Diana-Aleksieieva.pdf" download="AleksaDiana-CV" className='Hero-second-button'>Download CV</a>
+            <a href={myCV} target="_blank" download="AleksaDiana-CV.pdf" className='Hero-second-button'>Download CV</a>
           </div>
           <HashLink className='Hero-button-right' smooth to="../App.js#Cosmetic">Projects</HashLink>
         </div>
