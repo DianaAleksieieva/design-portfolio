@@ -22,12 +22,17 @@ function ForthExample() {
             src={require('../img/brooklyn-cake-logo.jpg')}
           ></img>
         </div>
-        <div className="Img-lucky-web">
-          <div className="Img-lucky-web-wrap">
+        <div className="Img-bc-web">
+          <div className="Img-bc-web-wrap">
             <img
               className="brooklyn-cake-img"
               alt="brooklyn-cake example"
               src={require('../img/brooklyn-cake-sitejpg.jpg')}
+            ></img>
+            <img
+              className="brooklyn-cake-img"
+              alt="brooklyn-cake example"
+              src={require('../img/modal-bc.jpg')}
             ></img>
           </div>
         </div>
