@@ -1,6 +1,8 @@
 
 .BrooklynCake-description-wrap {
     display: flex;
+    border-top: solid 1.5px #E8E8E8;
+    padding-top: 40px;
 }
 
 
