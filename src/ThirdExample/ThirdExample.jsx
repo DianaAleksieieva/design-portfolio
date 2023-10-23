@@ -25,13 +25,9 @@ function ThirdExample() {
         </div>
         <div className="Img-lucky-web">
           <div className="Img-lucky-web-wrap">
+           
             <img
-              className="LuckyGift-img"
-              alt="Lucky-Gift example"
-              src={require('../img/Lucky-Gift-1.jpg')}
-            ></img>
-            <img
-              className="LuckyGift-img"
+              className="LuckyGift-img-3"
               alt="Lucky-Gift example"
               src={require('../img/Lucky-Gift-2.jpg')}
             ></img>
