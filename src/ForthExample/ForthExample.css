@@ -9,22 +9,31 @@
 .brooklyn-cake-img{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     max-width: 650px;
+    display: block;
     }
 .img-no-shadow {
     max-width:400px;
+    margin-bottom: 30px;
 }
-
+.Img-bc-web-wrap {
+    display: flex;
+    justify-content: space-between;
+}
 .Project-description {
     margin-right: 100px;
     max-width: 700px;
 }
 
 @media only screen and (max-width: 450px) {
+    .Img-bc-web-wrap {
+        flex-direction: column;
+    }
     .BrooklynCake-description-wrap {
         flex-direction: column;
     }
     .img-no-shadow {
         width: 100%;
+        margin-bottom: 10px
     }
     .brooklyn-cake-img {
         display: block;
