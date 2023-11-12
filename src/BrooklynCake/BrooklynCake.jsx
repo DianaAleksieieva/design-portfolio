@@ -1,14 +1,14 @@
-import './ForthExample.css';
+import './BrooklynCake.css';
 import '../App.css';
 
-function ForthExample() {
+function BrooklynCake() {
   return (
     <section className="BrooklynCake">
       <div className="Container">
         <div className="BrooklynCake-description-wrap">
           <div>
             <h2 className="Project-header">Brooklyn Cake Brand Design</h2>
-            <p className="Project-description">
+            <p className="Brooklyn-project-description">
               The brand design was created for the Brooklyn Cake factory. The
               logo is on a blue background with the chocolate cake was
               illustrated. Also, was chosen the font for the company name. For
@@ -36,9 +36,27 @@ function ForthExample() {
             ></img>
           </div>
         </div>
+        <div className='packs-cake-wrap'>
+          <div>
+          <p className='packs-cake-capture'>Whole cake Package</p>
+          <img
+              className="pack-cake-img"
+              alt="whole cake package"
+              src={require('../img/whole-cake-package.jpg')}
+            ></img>
+          </div>
+          <div>
+          <p className='packs-cake-capture'>One pice Package</p>
+          <img
+              className="pack-cake-img"
+              alt="one pice package"
+              src={require('../img/one-pice-pack.jpg')}
+            ></img>
+          </div>
+        </div>
       </div>
     </section>
   );
 }
 
-export default ForthExample;
+export default BrooklynCake;

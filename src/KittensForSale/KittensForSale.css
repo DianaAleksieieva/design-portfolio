@@ -1,0 +1,28 @@
+.KittensForSale-description-wrap {
+    display: flex;
+}
+.kittens-promo-img {
+    max-width: 100%;
+}
+
+.Kittens-project-description-text {
+    margin-left: 50px;
+}
+
+.kittens-logo {max-height: 96px;
+    max-width: 411px;}
+
+    @media only screen and (max-width: 450px) {
+        .KittensForSale-description-wrap {
+            flex-direction: column;
+        } 
+        .kittens-logo {
+            width: 100%;
+        }
+        .Kittens-project-description-text {
+            margin-left: 0px;
+        }
+        .kittens-project-header {
+            font-size: 18px;
+        }
+    }
