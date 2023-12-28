@@ -36,24 +36,7 @@ function BrooklynCake() {
             ></img>
           </div>
         </div>
-        <div className='packs-cake-wrap'>
-          <div>
-          <p className='packs-cake-capture'>Whole cake Package</p>
-          <img
-              className="pack-cake-img"
-              alt="whole cake package"
-              src={require('../img/whole-cake-package.jpg')}
-            ></img>
-          </div>
-          <div>
-          <p className='packs-cake-capture'>One pice Package</p>
-          <img
-              className="pack-cake-img"
-              alt="one pice package"
-              src={require('../img/one-pice-pack.jpg')}
-            ></img>
-          </div>
-        </div>
+      
       </div>
     </section>
   );

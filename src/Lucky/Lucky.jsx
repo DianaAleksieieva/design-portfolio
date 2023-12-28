@@ -1,7 +1,7 @@
-import './ThirdExample.css';
+import './Lucky.css';
 import '../App.css';
 
-function ThirdExample() {
+function Lucky() {
   return (
     <section className="LuckyGift">
       <div className="Container">
@@ -43,4 +43,4 @@ function ThirdExample() {
   );
 }
 
-export default ThirdExample;
+export default Lucky;

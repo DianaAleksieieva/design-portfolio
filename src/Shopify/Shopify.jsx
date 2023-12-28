@@ -1,7 +1,7 @@
-import './FirstExample.css';
+import './Shopify.css';
 import '../App.css';
 
-function FirstExample() {
+function Shopify() {
   return (
     <section className="Shopify">
       <div className="Container">
@@ -45,4 +45,4 @@ function FirstExample() {
   );
 }
 
-export default FirstExample;
+export default Shopify;

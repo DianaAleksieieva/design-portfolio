@@ -1,0 +1,26 @@
+.ClothLookbook-img {
+    max-width: 445px;
+}
+.ClothLookbook {
+    border-top: solid 1.5px #E8E8E8;
+    padding-bottom: 40px;
+    border-bottom: solid 1.5px #E8E8E8;
+}
+
+.ClothLookbook-img-wrap {
+  text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .Project-header {
+        padding-top: 20px;
+    }
+    
+    .ClothLookbook-img {
+        width: 100%;
+    
+    }
+    .Project2-promo-img:first-child {
+        margin-bottom: 20px;
+    }
+  }

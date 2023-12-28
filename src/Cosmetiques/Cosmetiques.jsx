@@ -1,7 +1,7 @@
-import './SecondExample.css';
+import './Cosmetiques.css';
 import '../App.css';
 
-function SecondExample() {
+function Cosmetiques() {
   return (
     <section className="Cosmetic">
       <div className="Container">
@@ -40,4 +40,4 @@ function SecondExample() {
   );
 }
 
-export default SecondExample;
+export default Cosmetiques;
