@@ -1,0 +1,43 @@
+.Projects-section {
+  background: radial-gradient(
+    ellipse at right bottom,
+    rgba(255, 227, 147, 0.65) 0%,
+    rgba(255, 248, 239, 0.75) 100%
+  );
+}
+
+.Project-example-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  list-style-type : none;
+  padding: 0%;
+}
+
+.Project-example-card {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #363939;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: white;
+  text-decoration: none;
+  color: #363939;
+  overflow: hidden;
+}
+
+.Project-example-caption {
+  text-align: center;
+}
+
+.Project-example-card:hover {
+  background-color: #ffe393;
+  text-decoration: underline;
+  box-shadow: 3px 3px 3px #a8a8a8;
+}
+
+
+.Project-example-item img {
+  width: 100%;
+  height: auto;
+}

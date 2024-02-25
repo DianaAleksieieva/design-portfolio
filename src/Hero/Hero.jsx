@@ -1,19 +1,20 @@
 import './Hero.css';
 import '../App.css';
-import Header from '../Header/Header.jsx';
+import { Link } from 'react-router-dom';
+import HeroAnimation from "./HeroAnimation/HeroAnimation.jsx"
 import aleksaLOGO from '../img/Aleksa-Diana.svg';
-import { HashLink } from 'react-router-hash-link';
-import myCV from '.././img/CV-Diana-Aleksieieva.pdf'
+import myCV from '.././img/CV-Diana-Aleksieieva.pdf';
 
 function Hero() {
   return (
     <section className="Hero-section">
       <div className="Container">
-        <Header></Header>
-
-        <div>
-          <img width={738} src={aleksaLOGO} className="Aleksa-logo"></img>
-          <p className="Design-possition">Graphic Designer </p>
+        <div className='Hero-content'>
+          <div>
+          <div className="descriprion-wrap">
+            <img src={aleksaLOGO} className="Aleksa-logo"></img>
+            <p className="Design-position">Graphic Designer </p>
+          </div>
           <p className="Description">
             Highly creative graphic designer with 5 years of experience in Adobe
             Indesign, Illustrator, Photoshop, Figma, web and mobile design, and
@@ -25,12 +26,21 @@ function Hero() {
         </div>
 
         <div className="Hero-buttons">
-          <div className='Hero-buttons-left'>
-          <HashLink className='Hero-first-button' smooth to="../App.js#Shopify">Projects</HashLink>
-            <a href={myCV} target="_blank" download="AleksaDiana-CV.pdf" className='Hero-second-button'>Download CV</a>
-          </div>
-          <HashLink className='Hero-button-right' smooth to="../App.js#Cosmetic">Projects</HashLink>
+          <Link className="Primary-button" smooth to="/Projects">
+            Projects
+          </Link>
+          <a
+            href={myCV}
+            target="_blank"
+            download="AleksaDiana-CV.pdf"
+            className="Secondary-button Secondary-button-right" 
+          >
+            Download CV
+          </a>
+          
         </div>
+        </div>
+        <HeroAnimation display="block"/>
       </div>
     </section>
   );

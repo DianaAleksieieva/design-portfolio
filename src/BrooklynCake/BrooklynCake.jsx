@@ -1,10 +1,12 @@
 import './BrooklynCake.css';
 import '../App.css';
+import GoBackButton from "../GoBackButton/GoBackButton.jsx"
 
 function BrooklynCake() {
   return (
     <section className="BrooklynCake">
       <div className="Container">
+        <GoBackButton/>
         <div className="BrooklynCake-description-wrap">
           <div>
             <h2 className="Project-header">Brooklyn Cake Brand Design</h2>

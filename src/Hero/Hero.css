@@ -1,143 +1,96 @@
-.Hero-section { 
-    background: radial-gradient(ellipse at right bottom, rgba(255, 227, 147, 0.65) 0%, rgba(255, 248, 239, 0.75) 100%);
-    height: 100vh;
-  }
-.Aleksa-logo {
-    margin-top: 100px;
+.Hero-section {
+  background: radial-gradient(
+    ellipse at right bottom,
+    rgba(255, 227, 147, 0.65) 0%,
+    rgba(255, 248, 239, 0.75) 100%
+  );
+  height: calc(100vh - 90px);
+}
+.Hero-content {
+    /* position: relative; */
+    display: flex;
+    height: calc(100vh - 90px);
+    flex-direction: column;
+   justify-content:  center;
+    z-index: 2;
 }
 
-.Design-possition {
-    font-size: 60px;
-    font-weight: 200;
-    margin-top: 25px;
-    margin-bottom: 50px;
+.descriprion-wrap {
+  max-width: 700px;
+  display: inline-block;
+}
+.Aleksa-logo {
+  width: 85%;
+}
+
+.Design-position {
+  font-size: 2em;
+  font-weight: 200;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .Description {
-    max-width: 800px;
-    font-size: 18px;
-    line-height: 160%;
+    max-width: 600px;
+  font-size: 18px;
+  line-height: 160%;
 }
 
 .Hero-buttons {
+  display: flex;
+  margin-top: 115px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-device-width: 1439px) {
+  .Hero-section {
+    height: 100vh;
+  }
+  .Hero-buttons {
     display: flex;
-    justify-content: space-between;
-    margin-top: 135px;
+    margin-top: 60px;
+  }
+
 }
 
-.Hero-first-button {
-    cursor: pointer;
-    display: inline-block;
-    padding: 15px 70px;
-    border: 1px solid #363939;
-    font-size: 18px;
-    background-color: transparent;
-    text-decoration: none;
-    color: #363939;
-}
-
-
-
-.Hero-first-button:hover {
-    background-color: #FFE393;
-    border: 1px solid #FFE393;
-    text-decoration: underline;
-}
-
-.Hero-second-button {
-    cursor: pointer;
-    display: inline-block;
-    padding: 15px 70px;
-    font-size: 18px;
-    background-color: #FFE393;
-    border: 1px solid #FFE393;;
-    margin-left: 20px;
-    text-decoration: none;
-    color: #363939;
-}
-
-.Hero-second-button:hover {
-    cursor: pointer;
-    display: inline-block;
-    padding: 15px 70px;
-    border: 1px solid #363939;
-    font-size: 18px;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.Hero-button-right {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    cursor: pointer;
-    margin: 0;
-    color: #363939;
-    text-decoration: none;
-}
-
-.Hero-button-right::after {
-    content: '';
-    background-image: url('../img/right-arrow.svg');
-    display: inline-block;
-    background-size: 25px 25px;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    margin-left: 5px;
-}
-
-.Hero-button-right:hover {
-    text-decoration: underline;
-}
-
-@media only screen and (max-width: 450px) {
-    .Hero-section { 
-        height: 100%;
-      }
-    .Aleksa-logo {
-        margin-top: 45px;
-        width: 100%;
-    }
-    
-    .Design-possition {
-        font-size: 28px;
-        font-weight: 200;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-    
-    .Description {
-        font-size: 14px;
-        line-height: 140%;
-    }
-    
+@media only screen and (max-width: 768px) {
     .Hero-buttons {
         display: flex;
-        justify-content: space-between;
-        margin-top: 30px;
-    }
-    
-    .Hero-first-button {
-        display: block;
-        width: 200px;
-        padding: 10px 0px;
+        flex-direction: column;
+        margin-top: 50px;
+      }
+      .Design-position {
+        font-size: 2em;
+        font-weight: 200;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .Description {
         font-size: 16px;
-        text-align: center;
-    }
-    
-    .Hero-second-button {
-        display: block;
-        width: 200px;
-        padding: 10px 0px;
-        font-size: 16px;
-        margin-left: 0px;
-        margin-top: 10px;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    
-    .Hero-button-right {
-        display: none;
-    }
+        line-height: 140%;
+      }
+      .Aleksa-logo {
+        width: 100%;
+      }
+}
+
+@media only screen and (max-width: 425px) {
+  .Aleksa-logo {
+    margin-top: 45px;
+    width: 100%;
+  }
+  .Description {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .Design-position {
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .Hero-buttons {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
 }

@@ -1,10 +1,17 @@
 import './Shopify.css';
 import '../App.css';
+import React from 'react';
+import GoBackButton from "../GoBackButton/GoBackButton.jsx"
 
 function Shopify() {
+
   return (
     <section className="Shopify">
       <div className="Container">
+        <div className="GoBackButton-wrap">
+        <GoBackButton/>
+        </div>
+        
         <h2 className="Project-header">Shopify.com</h2>
         <p className="Project-description">
           The mobile interface welcomes users with a captivating welcome page
