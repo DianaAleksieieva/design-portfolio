@@ -6,7 +6,9 @@ function BrooklynCake() {
   return (
     <section className="BrooklynCake">
       <div className="Container">
+      <div className="GoBackButton-wrap">
         <GoBackButton/>
+        </div>
         <div className="BrooklynCake-description-wrap">
           <div>
             <h2 className="Project-header">Brooklyn Cake Brand Design</h2>

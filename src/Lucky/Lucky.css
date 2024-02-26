@@ -15,8 +15,9 @@
 }
 
 .Lucky-Gift-mock {
-    max-width: 550px;
-    max-height: 350px;
+    margin-top: auto;
+    max-width: 40%;
+    height:max-content
 }
 
 .LuckyGift-img{
@@ -28,7 +29,18 @@
     box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
     width:790px
 }
+@media only screen and (max-width: 950px) {
+    .Lucky-description-wrap {
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .Lucky-Gift-mock {
+        margin: auto;
+        max-width: 95%;
+    }
 
+}
 
 
 @media only screen and (max-width: 450px) {
@@ -41,10 +53,6 @@
         height: 100%;
     }
     .Img-lucky-web-wrap {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .Lucky-description-wrap {
         flex-direction: column;
         flex-wrap: wrap;
     }

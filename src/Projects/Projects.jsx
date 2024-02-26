@@ -28,13 +28,13 @@ function Projects() {
 <li className='Project-example-item'>
 <Link className='Project-example-card' smooth to="/BrooklynCake">
   <img src={BrooklynCakeIMG} alt="Project-2"/> 
-  <h3 className="Project-example-caption">BrooklynCake</h3>
+  <h3 className="Project-example-caption">Brooklyn Cake</h3>
   </Link>
 </li>
 <li className='Project-example-item'>
 <Link className='Project-example-card' smooth to="/ClothLookbook">
   <img src={ClothLookbookIMG} alt="Project-3"/> 
-  <h3 className="Project-example-caption">ClothLookbook online catalog</h3>
+  <h3 className="Project-example-caption">Moka Lookbook</h3>
   </Link>
 </li>
 <li className='Project-example-item'>
@@ -49,22 +49,23 @@ function Projects() {
   <h3 className="Project-example-caption">Retouch Promo Banner</h3>
   </Link>
 </li>
-<li className='Project-example-item'>
+{/* <li className='Project-example-item'>
 <Link className='Project-example-card' smooth to="/Calendar">
   <img src={CalendarIMG} alt="Project-6"/> 
   <h3 className="Project-example-caption">Calendar for Printing</h3>
+  </Link>
+</li> */}
+
+<li className='Project-example-item'>
+<Link className='Project-example-card' smooth to="/Lucky">
+  <img src={LuckyIMG} alt="Project-8"/> 
+  <h3 className="Project-example-caption">Lucky Gift Web</h3>
   </Link>
 </li>
 <li className='Project-example-item'>
 <Link className='Project-example-card' smooth to="/Cosmetiques">
   <img src={CosmetiquesIMG} alt="Project-7"/> 
   <h3 className="Project-example-caption">Cosmetiques emails</h3>
-  </Link>
-</li>
-<li className='Project-example-item'>
-<Link className='Project-example-card' smooth to="/Lucky">
-  <img src={LuckyIMG} alt="Project-8"/> 
-  <h3 className="Project-example-caption">Lucky Gift Web</h3>
   </Link>
 </li>
 <li className='Project-example-item'>

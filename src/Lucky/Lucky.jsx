@@ -1,10 +1,14 @@
 import './Lucky.css';
 import '../App.css';
+import GoBackButton from "../GoBackButton/GoBackButton.jsx"
 
 function Lucky() {
   return (
     <section className="LuckyGift">
       <div className="Container">
+      <div className="GoBackButton-wrap">
+        <GoBackButton/>
+        </div>
         <div className='Lucky-description-wrap'>
           <div>
             <h2 className="Project-header">Lucky Gift Web design</h2>

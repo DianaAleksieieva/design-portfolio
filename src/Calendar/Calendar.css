@@ -1,28 +1,27 @@
-.Calendar-img {
-    max-height: 593px;
-    max-width: 840px;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-}
 
-.Calendar-img-2 {
-    max-height: 593px;
-    max-width: 480px;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+.Calendar-content {
+    text-align: center;
+    margin: auto;
 }
-
 
 .Calendar-img-wrap {
     display: flex;
-    justify-content: space-around;
-    border-bottom: solid 1.5px #E8E8E8;
-    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
+.Calendar-cover-img {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Calendar-img {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
 .Calendar-header {text-align: center;
 margin-top: 50px;}
 
 @media only screen and (max-width: 450px) {
-    .Calendar-img-wrap {
-        flex-direction: column;
-    }
-
+   
 }

@@ -1,10 +1,15 @@
 import './KittensForSale.css';
 import '../App.css';
+import GoBackButton from "../GoBackButton/GoBackButton.jsx"
 
 function KittensForSale() {
   return (
     <section className="KittensForSale">
       <div className="Container">
+      <div className="GoBackButton-wrap">
+        <GoBackButton/>
+        </div>
+        <div className='KittensForSale-content'>
         <div className="KittensForSale-description-wrap">
           <img
             className="kittens-logo"
@@ -26,6 +31,7 @@ function KittensForSale() {
             alt="kittens-promos images"
             src={require('../img/kittens-up-promos.jpg')}
           ></img>
+        </div>
         </div>
       </div>
     </section>

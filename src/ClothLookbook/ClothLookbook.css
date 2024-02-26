@@ -1,15 +1,28 @@
 .ClothLookbook-img {
     max-width: 445px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .ClothLookbook {
     border-top: solid 1.5px #E8E8E8;
     padding-bottom: 40px;
     border-bottom: solid 1.5px #E8E8E8;
+    background-color: rgba(255, 248, 239, 0.75);
 }
 
 .ClothLookbook-img-wrap {
   text-align: center;
 }
+
+.ClothLookbook-img{box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 40%;}
+
+.LookBookHeader {
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 450px) {
     .Project-header {

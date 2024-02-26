@@ -1,12 +1,15 @@
 import './ClothLookbook.css';
 import '../App.css';
+import GoBackButton from "../GoBackButton/GoBackButton.jsx"
 
 function ClothLookbook() {
   return (
     <section className="ClothLookbook">
       <div className="Container">
-        
-        <h2 className="Project-header">Clothes Lookbook - online interactive catalog design </h2>
+      <div className="GoBackButton-wrap">
+        <GoBackButton/>
+        </div>
+        <h2 className="Project-header LookBookHeader">Clothes Lookbook - online interactive catalog design </h2>
         <div className='ClothLookbook-img-wrap'>
           <img
             className="ClothLookbook-img"
