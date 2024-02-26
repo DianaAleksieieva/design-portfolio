@@ -14,8 +14,8 @@ function Header() {
             info</Link>
             <Link className="Header-navigation-link" smooth to="/Projects">
             Projects</Link>
-            <Link className="Header-navigation-link" smooth to="/Blog">
-            Blog</Link>
+            {/* <Link className="Header-navigation-link" smooth to="/Blog">
+            Blog</Link> */}
         </div>
       </nav>
       </div>
