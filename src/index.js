@@ -13,6 +13,7 @@ import ClothLookbook from './ClothLookbook/ClothLookbook.jsx';
 import RetouchPromo from './RetouchPromo/RetouchPromo.jsx';
 import Calendar from './Calendar/Calendar.jsx';
 import SockHub from './SockHub/SockHub.jsx';
+import Twizzlers from './Twizzlers/Twizzlers.jsx';
 import Projects from './Projects/Projects.jsx';
 import BlogPage from './BlogPage/BlogPage.jsx';
 
@@ -34,6 +35,7 @@ root.render(
           <Route path="/retouchPromo" element={<RetouchPromo />}/>
           <Route path="/sockHub" element={<SockHub/>} />
           <Route path="/calendar" element={<Calendar />} />
+          <Route path="/twizzlers" element={<Twizzlers />} />
         </Routes>
     </BrowserRouter>
     

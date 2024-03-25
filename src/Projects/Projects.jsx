@@ -11,6 +11,7 @@ import CalendarIMG from "../img/projects/CalendarIMG.jpg"
 import CosmetiquesIMG from "../img/projects/CosmeticEmaiLIMG.jpg"
 import LuckyIMG from "../img/projects/LuckyIMG.jpg"
 import SockHubIMG from "../img/projects/SockHubIMG.jpg"
+import TwizzlersIMG from "../img/projects/TwizzlersIMG.jpg"
 
 function Projects() {
   return (
@@ -26,21 +27,28 @@ function Projects() {
   </Link>
 </li>
 <li className='Project-example-item'>
+<Link className='Project-example-card' smooth to="/Twizzlers">
+  <img src={TwizzlersIMG} alt="Project-1"/> 
+  <h3 className="Project-example-caption">Twizzlers Redesign</h3>
+  </Link>
+  
+</li>
+<li className='Project-example-item'>
 <Link className='Project-example-card' smooth to="/BrooklynCake">
   <img src={BrooklynCakeIMG} alt="Project-2"/> 
   <h3 className="Project-example-caption">Brooklyn Cake</h3>
   </Link>
 </li>
 <li className='Project-example-item'>
-<Link className='Project-example-card' smooth to="/ClothLookbook">
-  <img src={ClothLookbookIMG} alt="Project-3"/> 
-  <h3 className="Project-example-caption">Moka Lookbook</h3>
-  </Link>
-</li>
-<li className='Project-example-item'>
 <Link className='Project-example-card' smooth to="/KittensForSale">
   <img src={KittensForSaleIMG} alt="Project-4"/> 
   <h3 className="Project-example-caption">Kittens For Sale Flyers</h3>
+  </Link>
+</li>
+<li className='Project-example-item'>
+<Link className='Project-example-card' smooth to="/ClothLookbook">
+  <img src={ClothLookbookIMG} alt="Project-3"/> 
+  <h3 className="Project-example-caption">Moka Lookbook</h3>
   </Link>
 </li>
 <li className='Project-example-item'>
