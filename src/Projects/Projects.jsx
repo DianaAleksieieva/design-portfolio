@@ -12,6 +12,7 @@ import CosmetiquesIMG from "../img/projects/CosmeticEmaiLIMG.jpg"
 import LuckyIMG from "../img/projects/LuckyIMG.jpg"
 import SockHubIMG from "../img/projects/SockHubIMG.jpg"
 import TwizzlersIMG from "../img/projects/TwizzlersIMG.jpg"
+import LondontownIMG from "../img/projects/LondontownIMG.jpg" 
 
 function Projects() {
   return (
@@ -32,6 +33,12 @@ function Projects() {
   <h3 className="Project-example-caption">Twizzlers Redesign</h3>
   </Link>
   
+</li>
+<li className='Project-example-item'>
+<Link className='Project-example-card' smooth to="/Londontown">
+  <img src={LondontownIMG} alt="Project-2"/> 
+  <h3 className="Project-example-caption">Londontown</h3>
+  </Link>
 </li>
 <li className='Project-example-item'>
 <Link className='Project-example-card' smooth to="/BrooklynCake">

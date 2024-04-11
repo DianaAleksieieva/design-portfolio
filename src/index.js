@@ -16,6 +16,7 @@ import SockHub from './SockHub/SockHub.jsx';
 import Twizzlers from './Twizzlers/Twizzlers.jsx';
 import Projects from './Projects/Projects.jsx';
 import BlogPage from './BlogPage/BlogPage.jsx';
+import Londontown from './Londontown/Londontown.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,6 +37,7 @@ root.render(
           <Route path="/sockHub" element={<SockHub/>} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/twizzlers" element={<Twizzlers />} />
+          <Route path="/londontown" element={<Londontown />} />
         </Routes>
     </BrowserRouter>
     
